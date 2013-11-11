@@ -1,0 +1,8 @@
+language: ruby
+script: true
+
+deploy:
+  edge: true
+  provider: appfog
+  email: "testing@testing.org"
+  password: "fakepass"
