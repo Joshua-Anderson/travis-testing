@@ -4,4 +4,4 @@ before_install:
   - chmod +x test.sh
 
 
-script: test.sh
+script: ./test.sh
