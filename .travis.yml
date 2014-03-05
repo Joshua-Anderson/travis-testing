@@ -1,7 +1,7 @@
 language: ruby
 
 before_install:
-  - echo $TRAVIS_BUILD_MESSAGE
+  - chmod +x test.sh
 
 
-script: true
+script: test.sh
