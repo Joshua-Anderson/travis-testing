@@ -1,7 +1,7 @@
 language: ruby
 
-before_install:
-  - chmod +x test.sh
+env:
+  - TEST_VAR="Testing"
 
 
-script: ./test.sh
+script: echo $(TEST_VAR)
