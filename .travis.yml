@@ -1,7 +1,3 @@
 language: ruby
 
-env:
-  - TEST_VAR="Testing"
-
-
-script: echo $($TEST_VAR)
+script: printenv
